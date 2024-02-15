@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  background-color: #101010; }
+
+.Todo {
+  width: 400px;
+  height: 600px;
+  background-color: #202020;
+  position: absolute;
+  border-radius: 4px;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+  .Todo h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'URW Gothic', serif;
+    margin-bottom: 10px; }
+  .Todo .List {
+    width: 100%;
+    margin-top: 50px; }
+    .Todo .List ul {
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      flex-direction: column;
+      place-items: center;
+      gap: 1em; }
+      .Todo .List ul li {
+        width: 300px;
+        background-color: #252525;
+        padding: 6px;
+        border-radius: 4px;
+        color: white;
+        text-align: left;
+        display: flex;
+        place-items: center;
+        gap: 0.5em;
+        transition: 300ms;
+        font-family: 'Droid Sans', serif; }
+        .Todo .List ul li .Delete button {
+          width: 25px;
+          height: 25px;
+          font-size: 12px;
+          border-radius: 4px;
+          background-color: indianred;
+          color: white;
+          cursor: pointer;
+          outline: none;
+          border: none;
+          display: grid;
+          place-items: center; }
+  .Todo .Add {
+    display: flex;
+    justify-content: center; }
+    .Todo .Add input {
+      height: 25px;
+      outline: none;
+      border: none;
+      padding-left: 10px;
+      border-radius: 5px 0 0 5px; }
+    .Todo .Add button {
+      width: 50px;
+      height: 25px;
+      outline: none;
+      cursor: pointer;
+      border: none;
+      background-color: lightgreen;
+      border-radius: 0 5px 5px 0;
+      transition: 300ms; }
+    .Todo .Add button:hover {
+      background-color: #56e656; }
+
+/*# sourceMappingURL=app.css.map */
